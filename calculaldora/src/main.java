@@ -1,7 +1,7 @@
 public class main {
     public static void main(String[] args) {
-        double primeiroNumero = 11;
-        double segundoNumero = 0;
+        double primeiroNumero = 12;
+        double segundoNumero = 2;
         /*
         *-----Operações-----
         *
@@ -12,7 +12,7 @@ public class main {
         * 5 - Resto
         *
         * */
-        int operacao = 4;
+        int operacao = 6;
         double resultado = 0;
 
         switch (operacao) {
@@ -34,12 +34,18 @@ public class main {
                 } else {
                     resultado = primeiroNumero / segundoNumero;
                     System.out.println("Resultado: " + resultado);
-                    break;
                 }
-            case 5:
-                resultado = primeiroNumero % segundoNumero;
-                System.out.println("Resultado: " + resultado);
                 break;
+            case 5:
+                if(segundoNumero == 0) {
+                    System.out.println("Erro: não pode dividir por zero");
+                } else {
+                    resultado = primeiroNumero % segundoNumero;
+                    System.out.println("Resultado: " + resultado);
+                }
+                break;
+            default:
+                System.out.println("Erro: Operação inválida");
         }
     }
 }
