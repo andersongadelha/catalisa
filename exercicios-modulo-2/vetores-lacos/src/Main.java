@@ -31,5 +31,6 @@ public class Main {
         LocalDate dataAtual = LocalDate.now();
         System.out.println(nome);
         System.out.println(Period.between(dataNascimento, dataAtual).getYears() + " anos");
+        scanner.close();
     }
 }
