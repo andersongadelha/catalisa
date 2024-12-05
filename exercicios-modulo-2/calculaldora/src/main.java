@@ -1,18 +1,23 @@
+import java.util.Scanner;
+
 public class main {
     public static void main(String[] args) {
-        double primeiroNumero = 12;
-        double segundoNumero = 2;
-        /*
-        *-----Operações-----
-        *
-        * 1 - Soma
-        * 2 - Subtração
-        * 3 - Multiplicação
-        * 4 - Divisão
-        * 5 - Resto
-        *
-        * */
-        int operacao = 6;
+        double primeiroNumero;
+        double segundoNumero;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite o primeiro numero: ");
+        primeiroNumero = scanner.nextDouble();
+        System.out.println("Digite o segundo numero: ");
+        segundoNumero = scanner.nextDouble();
+
+        System.out.println("Digite um numero referente a operação: ");
+        System.out.println("1 - Soma");
+        System.out.println("2 - Subtração");
+        System.out.println("3 - Multiplicação");
+        System.out.println("4 - Divisão");
+        System.out.println("5 - Resto");
+        int operacao;
+        operacao = scanner.nextInt();
         double resultado = 0;
 
         switch (operacao) {
