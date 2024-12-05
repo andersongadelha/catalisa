@@ -16,6 +16,8 @@ public class main {
         System.out.println("3 - Multiplicação");
         System.out.println("4 - Divisão");
         System.out.println("5 - Resto");
+        System.out.println("5 - Resto");
+        System.out.println("6 - Potencia");
         int operacao;
         operacao = scanner.nextInt();
         double resultado = 0;
@@ -48,6 +50,10 @@ public class main {
                     resultado = primeiroNumero % segundoNumero;
                     System.out.println("Resultado: " + resultado);
                 }
+                break;
+            case 6:
+                resultado = Math.pow(primeiroNumero, segundoNumero);
+                System.out.println("Resultado: " + resultado);
                 break;
             default:
                 System.out.println("Erro: Operação inválida");
