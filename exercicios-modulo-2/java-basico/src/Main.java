@@ -83,7 +83,7 @@ public class Main {
         int limite;
         System.out.println("Digite um numero para o limite dos multiplos:");
         limite = scanner.nextInt();
-        for (int i =numero; i <= limite; i++) {
+        for (int i = numero; i <= limite; i++) {
             if (i % numero == 0) {
                 System.out.println(i);
             }
@@ -94,14 +94,16 @@ public class Main {
         numeroString = scanner.nextLine();
         resultado = 0;
         int potencia = 0;
-        for (int i= numeroString.length() -1;  i>=0;i--) {
+        for (int i = numeroString.length() - 1; i >= 0; i--) {
             char digito = numeroString.charAt(i);
-            if ( digito == '1') {
+            if (digito == '1') {
                 resultado += Math.pow(2, potencia);
             }
             potencia++;
         }
         System.out.println(resultado);
+
+        // 10 - Série de Fibonacci
     }
 
 }
