@@ -90,6 +90,18 @@ public class Main {
         }
 
         // 9 - Conversão de Binário para Decimal
+        System.out.println("Digite um numero binario para retornar o valor decimal:");
+        numeroString = scanner.nextLine();
+        resultado = 0;
+        int potencia = 0;
+        for (int i= numeroString.length() -1;  i>=0;i--) {
+            char digito = numeroString.charAt(i);
+            if ( digito == '1') {
+                resultado += Math.pow(2, potencia);
+            }
+            potencia++;
+        }
+        System.out.println(resultado);
     }
 
 }
