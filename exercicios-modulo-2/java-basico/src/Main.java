@@ -64,7 +64,7 @@ public class Main {
         int expoente;
         System.out.println("Digite um expoente a potência:");
         expoente = scanner.nextInt();
-        resultado =1;
+        resultado = 1;
         for (int i = 1; i <= expoente; i++) {
             resultado *= numero;
         }
@@ -78,6 +78,18 @@ public class Main {
         System.out.println(numeroString.equals(reverso));
 
         // 8 - Múltiplos de um Número
+        System.out.println("Digite um numero para retornar os multiplos:");
+        numero = scanner.nextInt();
+        int limite;
+        System.out.println("Digite um numero para o limite dos multiplos:");
+        limite = scanner.nextInt();
+        for (int i =numero; i <= limite; i++) {
+            if (i % numero == 0) {
+                System.out.println(i);
+            }
+        }
+
+        // 9 - Conversão de Binário para Decimal
     }
 
 }
