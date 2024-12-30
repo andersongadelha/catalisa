@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exercicios-modulo-2/calculaldora/calculaldora.iml" filepath="$PROJECT_DIR$/exercicios-modulo-2/calculaldora/calculaldora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/catalisa.iml" filepath="$PROJECT_DIR$/.idea/catalisa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicios-modulo-2/declarando-variaveis/declarando-variaveis.iml" filepath="$PROJECT_DIR$/exercicios-modulo-2/declarando-variaveis/declarando-variaveis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicios-modulo-2/hello/hello.iml" filepath="$PROJECT_DIR$/exercicios-modulo-2/hello/hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicios-modulo-2/java-basico/java-basico.iml" filepath="$PROJECT_DIR$/exercicios-modulo-2/java-basico/java-basico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicios-modulo-2/vetores-lacos/vetores-lacos.iml" filepath="$PROJECT_DIR$/exercicios-modulo-2/vetores-lacos/vetores-lacos.iml" />
+    </modules>
+  </component>
+</project>
